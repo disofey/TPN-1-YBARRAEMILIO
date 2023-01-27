@@ -1,0 +1,221 @@
+
+body{
+    background-image: linear-gradient(#636162, #b1afaf);
+    height: 122vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+/*Margen de izq Total*/
+*{
+    margin: 0px;  padding: 0px; font-family: 'Montserrat', sans-serif;
+
+}
+
+.main{
+    background-color: white;
+    height: auto;
+    width: 650px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+}
+
+.left{
+    background-color: rgb(240, 177, 61);
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+.right{
+    width: 450px;
+    float: left;
+}
+
+.perfil{
+    height: 180px;
+    width: 180px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-bottom: 40px;    /*margen de titulo*/
+    margin-left: 60px;
+    
+}
+
+.perfil img{
+    width: 100%;
+    border-radius: 50%;
+    margin-left: 01px;
+    margin-top: -5%;
+   
+}
+
+.box1{
+    position: relative;
+
+}
+
+.cabecera{
+    background-color: #4d4d4d;
+    padding: 3px;
+    color: #fbb03b;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: -15px;
+}   
+
+.cabecera::after{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: #5a5959;
+    left: 177px;
+    top: 20px;
+    transform: rotate(70deg);
+    z-index: -1;
+}
+
+.parrafo{
+    padding: 9px 10px;
+    font-size: 12px;
+}
+
+.icons1{
+    font-size: 16px !important;
+    padding-right: 10px !important;
+    vertical-align: sub;
+}
+
+.skill-container{
+    width: 90%;
+    background-color: #4d4d4d;
+    margin: 0px 10px;
+}
+
+.skill{
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+
+.html{
+    width: 90px;
+    background-color: white;
+}
+
+.css{
+    width: 70px;
+    background-color: white;
+}
+.js{
+    width: 65px;
+    background-color: white;
+}
+
+.vb6{
+    width: 80px;
+    background-color: white;
+}
+
+.wps{
+    width: 60px;
+    background-color: white;
+}
+
+.pwa{
+    width: 50px;
+    background-color: white;
+}
+
+.ciber{
+    width: 45px;
+    background-color: white;
+}
+
+.name{
+    padding: 86px 0px 50px 55px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.name h1{
+    margin-bottom: 10px;
+}
+
+.datos h5{
+    text-align: left;
+    padding-left: 200px;
+}
+.box2{
+    padding: 0px 50px 0px 250px;
+    margin-top: 30px;
+}
+
+.parrafo1{
+    font-size: 11px;
+    font-weight: 300;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 18px;
+	margin-top: 5px;
+
+
+}
+.parrafo3{
+	font-size: 10px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 18px;
+	margin-top: 5px;
+}
+h2{
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.icons2{
+	vertical-align: bottom;
+	font-size: 18px!important;
+	color: #4d4d4d;
+}
+.parrafo2{
+	font-size: 13px;
+	word-spacing: 1px;
+	letter-spacing: 0px;
+	margin-top: 10px;
+}
+.parrafo2 span{
+	color: #ff9b00; padding-left: 20px;
+}
+
+.container-form{
+    padding: 0px 10px 0px 250px;
+}
+
+.campo{
+    border: 1px solid #ff9b00;
+    padding: 2px;
+}    
+.txtarea{
+    
+    border: 1px solid #ff9b00;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 50px;
+   
+}
+
+.btn-enviar{
+    background-color: #ff9b00;
+    margin-inline: 5px;
+}
+
+/*Mailto*/
+
+#pruebaza{
+    opacity: 0;
+}
